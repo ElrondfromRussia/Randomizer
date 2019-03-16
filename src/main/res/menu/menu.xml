@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/main_lay"
+            android:title="@string/app_name"
+            app:showAsAction="withText"></item>
+        <item
+            android:id="@+id/used"
+            android:title="@string/Used"
+            app:showAsAction="withText">
+        </item>
+        <item
+            android:id="@+id/reset"
+            android:title="@string/Reset"
+            app:showAsAction="withText">
+        </item>
+        <item
+            android:id="@+id/exit"
+            android:title="@string/Exit"
+            app:showAsAction="withText">
+        </item>
+</menu>
